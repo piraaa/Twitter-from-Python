@@ -35,4 +35,4 @@ class twpy:
 if __name__ == '__main__':
 	twpy = twpy(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 	twpy.printTimeline(10)
-	twpy.tweet('test')
+	#twpy.tweet('test')
